@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="addExpense(event)">
+        <label>Choose Expense</label>
+        <input type="text" name="amount" id="amountId" />
+        <label>Choose Description</label>
+        <input type="text" name="descrip" id="descripId" />
+        <label>Choose A Category</label>
+        <input type="text" name="category" id="categoryId" />
+        <button id="button" class="button">Submitt</button>
+    </form>
+    <ul id='listOfUser'></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js"></script>
+    <script src="AddingDeletion.js"></script>
+</body>
+
+</html>
