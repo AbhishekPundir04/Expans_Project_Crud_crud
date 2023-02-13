@@ -47,7 +47,6 @@ function showUserOnScreen(user) {
         </li>`
     parentNode.innerHTML = parentNode.innerHTML + childHTML;
 }
-x
 
 function deleteUser(userId) {
     axios.delete(`https://crudcrud.com/api/a287a3bf54f74fccbbfac249d3828991/addExpense/${userId}`)
